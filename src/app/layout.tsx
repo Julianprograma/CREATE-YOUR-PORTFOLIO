@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from 'react-hot-toast';
 
 export const metadata: Metadata = {
-  title: 'Julian Moreno | Sistemas & Diseño Visual',
-  description: 'Portafolio de Ingeniería de Sistemas combinada con Estética Gráfica Premium.',
+  title: 'Julian Moreno | Ingenieria & Diseño Visual',
+  description: 'Portafolio de Ingeniería de Sistemas y Computación Julian Moreno.',
 };
 
 export default function RootLayout({
@@ -22,8 +22,8 @@ export default function RootLayout({
         <header className="fixed top-0 left-0 right-0 z-50 h-16 bg-black/70 backdrop-blur-lg border-b border-white/10">
           <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-6 md:px-12">
             {/* Logo */}
-            <div className="flex-shrink-0 font-bold text-lg tracking-tight">
-              <span className="text-white">JM</span><span className="text-blue-400">.</span>
+            <div className="w-12 h-12">
+              <span ><img src="/logo.png" alt="Logo"/></span>
             </div>
 
             {/* Navigation */}

@@ -41,7 +41,7 @@ export default function Hero() {
         <motion.div variants={itemVariants} className="mb-12 flex justify-center">
           <div className="flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm">
             <Code2 size={14} className="text-blue-400" />
-            <span className="text-xs font-medium text-neutral-300">Ingeniería de Sistemas</span>
+            <span className="text-xs font-medium text-neutral-300">Ingeniería de Sistemas y Computación</span>
           </div>
         </motion.div>
 
@@ -50,8 +50,8 @@ export default function Hero() {
           variants={itemVariants} 
           className="text-6xl md:text-8xl font-black tracking-tight text-white mb-8 leading-[1.05]"
         >
-          Sistemas que <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-300 to-indigo-500">generan impacto</span>
+          Portafolio <br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-300 to-indigo-500">Julian Moreno</span>
         </motion.h1>
 
         {/* Descripción - Limpia y directa */}
@@ -75,7 +75,7 @@ export default function Hero() {
           <div className="hidden sm:block w-px h-6 bg-white/10"></div>
           <div className="flex items-center gap-2">
             <Zap size={14} className="text-blue-400" />
-            <span className="text-neutral-300">Ingeniería en Sistemas</span>
+            <span className="text-neutral-300">Proyectos Desarrollados</span>
           </div>
           <div className="hidden sm:block w-px h-6 bg-white/10"></div>
           <span className="text-neutral-500">Universidad de Cundinamarca</span>
@@ -88,7 +88,7 @@ export default function Hero() {
         >
           <a 
             href="#proyectos" 
-            className="group px-8 py-3 bg-white text-black rounded-lg text-sm font-semibold hover:bg-neutral-200 transition-all duration-300 inline-flex items-center gap-2"
+            className="group px-8 py-3 bg-black text-black rounded-lg text-sm font-semibold hover:bg-neutral-400 transition-all duration-300 inline-flex items-center gap-2"
           >
             Explorar Proyectos
             <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">

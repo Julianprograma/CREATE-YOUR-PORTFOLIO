@@ -60,9 +60,6 @@ export default async function Home() {
               <p className="text-xs uppercase tracking-[0.4em] text-blue-400">Proyectos</p>
               <h2 className="mt-4 text-4xl font-semibold tracking-tight text-white sm:text-5xl">Trabajos recientes</h2>
             </div>
-            <p className="max-w-md text-sm text-neutral-400">
-              Muestra tu mejor trabajo con claridad: sistemas, análisis de datos, interfaces y soluciones escalables.
-            </p>
           </div>
 
           {error ? (
@@ -96,15 +93,15 @@ export default async function Home() {
             <div className="mt-10 grid gap-4 sm:grid-cols-3">
               <div className="rounded-3xl border border-white/10 bg-black/30 p-6">
                 <p className="text-sm uppercase tracking-[0.3em] text-blue-400">Email</p>
-                <p className="mt-4 text-base text-white">hola@tudominio.com</p>
+                <p className="mt-4 text-base text-white">julianprograma0102@gmail.com</p>
               </div>
               <div className="rounded-3xl border border-white/10 bg-black/30 p-6">
                 <p className="text-sm uppercase tracking-[0.3em] text-blue-400">Disponible</p>
-                <p className="mt-4 text-base text-white">Freelance / proyectos</p>
+                <p className="mt-4 text-base text-white">Freelance / Contrato termino fijo</p>
               </div>
               <div className="rounded-3xl border border-white/10 bg-black/30 p-6">
                 <p className="text-sm uppercase tracking-[0.3em] text-blue-400">Enlace</p>
-                <p className="mt-4 text-base text-white">linkedin.com/in/julian-moreno</p>
+                <p className="mt-4 text-base text-white">linkedin.com/in/julianmorenomultimedia/</p>
               </div>
             </div>
           </div>
